@@ -41,7 +41,7 @@
                         
                             <td>${fieldValue(bean: userInstance, field: "email")}</td>
                         
-                            <td><img src="${resource(dir:'avatarImages', file: userInstance.id + '.png')}" /></td>
+                            <td><img width="100px" src="${resource(dir:'avatarImages', file: userInstance.id + '.png')}" /></td>
                         
                         </tr>
                     </g:each>
